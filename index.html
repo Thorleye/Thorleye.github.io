@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
         body {background-image:url("./images/concrete_seamless.png")}
+        img  {max-height: 175px;}
+        .container-fluid {margin-left: 12%; margin-right: 12%;}
     </style>
 </head>
 <body>
@@ -17,12 +19,12 @@
             <div class="navbar-header">
                 <span class="navbar-brand" style="background-color: #4aaaa5; color:#ffffff";><strong>Eric Thorley</strong></span>
             </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="Index.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="Index.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     
     <div class="container" >
@@ -71,45 +73,81 @@
                         <a target="_blank" href="https://thorleye.github.io/Firebase-Train-Project/.">
                         <img src="./images/Train_schedule.JPG" alt="schedule" style="width:100%">
                         <div class="caption">Train Schedule</div>
-                        </a>
+                        </a>                        <hr>
+                        <span>
+                            <p>Web app utilizing a Firebase server and moment.js</p>
+                            <a target="_blank" href="https://github.com/thorleye/Giphy-Project" >Github Repo</a>
+                        </span>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
                         <a target="_blank" href="https://github.com/Thorleye/bamazon">
-                        <img src="./images/bamazon.JPG" alt="bamazon node" style="width:100%">
-                        <div class="caption">bamazon Node Inventory Management</div>
+                            <img src="./images/bamazon.JPG" alt="bamazon node" style="width:100%">
+                            <div class="caption">bamazon Node Inventory Management</div>
                         </a>
+                        <hr>
+                        <span>
+                            <p>Node based inventory management system utilizing MySQL</p>
+                            <a target="_blank" href="https://github.com/thorleye/bamazon" >Github Repo</a>
+                        </span>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
                         <a target="_blank" href="https://thorleye.github.io/Giphy-Project/.">
-                        <img src="./images/Terrence-Ross-Behind-the-Back-Dunk-2013-Dunk-Contest.gif" alt="Gif" style="width:100%">
-                        <div class="caption">Sports Gif Generator</div>
+                            <img src="./images/Terrence-Ross-Behind-the-Back-Dunk-2013-Dunk-Contest.gif" alt="Gif" style="width:100%">
+                            <div class="caption">Sports Gif Generator</div>
                         </a>
+                        <hr>
+                        <span>
+                            <p>Web app utilizing the Giphy API to create pausible gifs</p>
+                            <a target="_blank" href="https://github.com/thorleye/Giphy-Project" >Github Repo</a>
+                        </span>
                     </div>
-                </div>
-            
-                
+                </div>            
             </div>
             <!--Row 3-->
             
             <div class="row">   
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <a target="_blank" href="https://thorleye.github.io/Psychic-Game/.">
-                        <img src="./images/crystal_ball.jpg" alt="Psychic" style="width:100%">
-                        <div class="caption">Psychic Game</div>
+                        <a target="_blank" href="https://visualize-myself.herokuapp.com/">
+                            <img src="./images/macroBar.gif" alt="visualize-myself" style="width:100%">
+                            <div class="caption">Visualize Myself</div>
                         </a>
+                        <hr>
+                        <span>
+                            <p>Node based group project graphing data from MyFitnessPal with graph.js + integrated Nutrition APIs</p>
+                            <a target="_blank" href="https://github.com/seppar93/visualizeMe" >Github Repo</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <a target="_blank" href="https://thorleye.github.io/Psychic-Game/.">
+                            <img src="./images/crystal_ball.jpg" alt="Psychic" style="width:100%">
+                            <div class="caption">Psychic Game</div>
+                        </a>
+                        <hr>
+                        <span>
+                            <p>First built Javascript game. Guess which letter the computer has picked</p>
+                            <a target="_blank" href="https://github.com/Thorleye/Psychic-Game" >Github Repo</a>
+                        </span>
                     </div>
                 </div>          
                 <div class="col-sm-4">
                     <div class="thumbnail">
                         <a target="_blank" href="https://thorleye.github.io/unit-4-game/.">
-                        <img src="./images/red.jpg" alt="crystal" style="width:100%">
-                        <div class="caption">Crystal Collector!</div>
+                            <img src="./images/red.jpg" alt="crystal" style="width:100%">
+                            <div class="caption">Crystal Collector!</div>
                         </a>
+                        <hr>
+                        <span>
+                            <p>Javascript math based game. Hit target score by clicking on crystals.</p>
+                            <a target="_blank" href="https://github.com/Thorleye/unit-4-game" >Github Repo</a>
+                        </span> 
                     </div>
                 </div>
                 
@@ -119,10 +157,9 @@
         <div class="col-sm-1"></div>    
     </div>
 </body>
-<footer class="container-fluid text-center" style="background-color: #777777; border-top:2px solid #4aaaa5">
+<footer class="container text-center" style="background-color: #777777; border-top:2px solid #4aaaa5; width:100%;">
         <p style="color: #ffffff;">Copyright &copy;</p>
 </footer>
-</nav>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
