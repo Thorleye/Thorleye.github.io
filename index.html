@@ -1,179 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style>
-        body {background-image:url("./images/concrete_seamless.png")}
-        img  {max-height: 175px;}
-        .container-fluid {margin-left: 12%; margin-right: 12%;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
-<body>
 
-     <nav class="navbar navbar-default" style="background-color:#ffffff";>
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <span class="navbar-brand" style="background-color: #4aaaa5; color:#ffffff";><strong>Eric Thorley</strong></span>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="Index.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+<!-- header across the top of the screen-->
+<header>
+        <!-- header wrapper is nav-->
+    <nav>
+        <!-- div#name is the teal name box-->
+        <div id="name"><b>Eric Thorley</b></div id="name">
+         <!--clickable links on the right are on unordered list -->
+         <ul>
+            <li><a href="https://www.linkedin.com/in/eric-thorley-22763bbb/">LinkedIn</a></li>
+            <li id="dash"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html" >About</a></li>
+        </ul>
     </nav>
+</header>
+
+<!-- body has the picture and the content-->
+<body>
+            <!-- div class wrapper-->
+    <div class="wrapper">
     
-    <div class="container" >
-        <div class="col-sm-1"></div>
-        <!--Portfolio Div with images is 5/6 page wide-->
-        <div class="col-sm-10" style="background-color: #ffffff">
-
-            <!--Div for image rows inside of the Porfolio Div-->
-
-            <!--Row 1-->
-            <div class="page-header"><h2 style="color:#4aaaa5;">Portfolio</h2></div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://thorleye.github.io/Clicky-Game/">
-                        <img src="./images/clicky.JPG" alt="clicky_game" style="width:100%">
-                        <div class="caption">Clicky Game</div>
-                        </a>
-                        <span>
-                            <p>A React based game. Click the images, but do not click the same one twice!</p>
-                            <a target="_blank" href="https://github.com/thorleye/Clicky-Game">Github Repo</a>
-                        </span>
-                    </div>
-                </div>
-            
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://lit-escarpment-60891.herokuapp.com/">
-                        <img src="./images/burger_pic.jpg" alt="burger" style="width:100%">
-                        <div class="caption">Eat the Burger</div>
-                        </a>
-                        <span>
-                            <p>A CRUD application for adding and marking items complete using MySQL and handlebars</p>
-                            <a target="_blank" href="https://github.com/thorleye/burger">Github Repo</a>
-                        </span>
-                    </div>
-                </div>
+        <section id="content">
+            <!--About me title-->
+            <header><h1>About Me</h1></header>      
                 
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://frozen-plains-11584.herokuapp.com/">
-                        <img src="./images/friend.jpg" alt="friend" style="width:100%">
-                        <div class="caption">FriendFinder</div>
-                        </a>
-                        <span>
-                            <p>A MERN type matchmaking app utilizing a survey</p>
-                            <a target="_blank" href="https://github.com/thorleye/FriendFinder" >Github Repo</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            
-
-            <!--Row 2-->
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://thorleye.github.io/Firebase-Train-Project/.">
-                        <img src="./images/Train_schedule.JPG" alt="schedule" style="width:100%">
-                        <div class="caption">Train Schedule</div>
-                        </a>                        <hr>
-                        <span>
-                            <p>Web app utilizing a Firebase server and moment.js</p>
-                            <a target="_blank" href="https://github.com/thorleye/Giphy-Project" >Github Repo</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://github.com/Thorleye/bamazon">
-                            <img src="./images/bamazon.JPG" alt="bamazon node" style="width:100%">
-                            <div class="caption">bamazon Node Inventory Management</div>
-                        </a>
-                        <hr>
-                        <span>
-                            <p>Node based inventory management system utilizing MySQL</p>
-                            <a target="_blank" href="https://github.com/thorleye/bamazon" >Github Repo</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://thorleye.github.io/Giphy-Project/.">
-                            <img src="./images/Terrence-Ross-Behind-the-Back-Dunk-2013-Dunk-Contest.gif" alt="Gif" style="width:100%">
-                            <div class="caption">Sports Gif Generator</div>
-                        </a>
-                        <hr>
-                        <span>
-                            <p>Web app utilizing the Giphy API to create pausible gifs</p>
-                            <a target="_blank" href="https://github.com/thorleye/Giphy-Project" >Github Repo</a>
-                        </span>
-                    </div>
-                </div>            
-            </div>
-            <!--Row 3-->
-            
-            <div class="row">   
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://visualize-myself.herokuapp.com/">
-                            <img src="./images/macroBar.gif" alt="visualize-myself" style="width:100%">
-                            <div class="caption">Visualize Myself</div>
-                        </a>
-                        <hr>
-                        <span>
-                            <p>Node based group project graphing data from MyFitnessPal with graph.js + integrated Nutrition APIs</p>
-                            <a target="_blank" href="https://github.com/seppar93/visualizeMe" >Github Repo</a>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://thorleye.github.io/Psychic-Game/.">
-                            <img src="./images/crystal_ball.jpg" alt="Psychic" style="width:100%">
-                            <div class="caption">Psychic Game</div>
-                        </a>
-                        <hr>
-                        <span>
-                            <p>First built Javascript game. Guess which letter the computer has picked</p>
-                            <a target="_blank" href="https://github.com/Thorleye/Psychic-Game" >Github Repo</a>
-                        </span>
-                    </div>
-                </div>          
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a target="_blank" href="https://thorleye.github.io/unit-4-game/.">
-                            <img src="./images/red.jpg" alt="crystal" style="width:100%">
-                            <div class="caption">Crystal Collector!</div>
-                        </a>
-                        <hr>
-                        <span>
-                            <p>Javascript math based game. Hit target score by clicking on crystals.</p>
-                            <a target="_blank" href="https://github.com/Thorleye/unit-4-game" >Github Repo</a>
-                        </span> 
-                    </div>
-                </div>
+            <!-- picture at the upper left-->
                 
-            </div>
+                <img id="profile" src="./assets/images/Profile cropped.jpg" alt="Bio Pic">
 
-        </div>
-        <div class="col-sm-1"></div>    
-    </div>
-</body>
-<footer class="container text-center" style="background-color: #777777; border-top:2px solid #4aaaa5; width:100%;">
-        <p style="color: #ffffff;">Copyright &copy;</p>
-</footer>
+                <!-- bio content-->
+                <p>
+                    I am a fullstack developer with an emphasis on the back-end and former manufacturing sales representative. 
+                    I've decided to change career paths and learn the skills of web development to give myself the skills needed
+                    to create new and innovative web applications.  
+                </p>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+                <p>
+                    Born and raised in Toronto, I earned my Honours BA in 2012 from the University of Toronto before returning in 2018 
+                    for the full stack development bootcamp program from the U of T School of Continuing Studies. 
+                    I have done volunteer work with churches, the children's aid society, community outreach programs 
+                    and the Heart and Stroke foundation. I have worked jobs in a few kitchens and my previous role as a 
+                    sales rep at a steel company involved in the japanese automotive manufacturing process. 
+                </p>
+                <br>
+                <span id="technologies">
+                    <header><h1>Technologies</h1></header> 
+                    <img class="logos" src="assets/images/html5-css-javascript-logos.png" alt="html">
+                    <img class="logos" src="assets/images/React_logo_wordmark.png" alt="react">
+                    <img class="logos" src="assets/images/MySQL.png" alt="MySQL">
+                    <img class="logos" src="assets/images/node.png" alt="node">
+                    <img class="logos" src="assets/images/Expressjs.png" alt="express">
+                    <img class="logos" src="assets/images/mongodb-logo.jpg" alt = "mongod">
+                </span>
+
+                </section>
+        </div>    
+    </body>
+
+    <footer>Copyright 2018 &copy;</footer>
+
 </html>
