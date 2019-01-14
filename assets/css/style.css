@@ -59,6 +59,21 @@ nav li {
 
 }
 
+.navContact {
+   width:100%;
+}
+
+.myContact {
+   
+    width: 100%;
+    font-size: 36px;
+    padding: 12px;
+    text-align: center;
+    margin: 16px;
+    
+
+ }
+
 /* little lines like on the assignment */
 li#dash {
     border-left: 1pt solid #dddddd;
